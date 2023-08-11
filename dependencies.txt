@@ -1,0 +1,3 @@
+npm install @headlessui/react cloudinary jsonwebtoken @types/jsonwebtoken graphql-request next-auth 
+npm install @grafbase/sdk --save-dev
+npm install @grafbase/sdk --save-dev    ->  https://www.npmjs.com/package/@grafbase/sdk

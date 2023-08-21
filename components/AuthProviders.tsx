@@ -27,8 +27,7 @@ const AuthProviders = () => {
     };
 
     fetchProviders();
-  }),
-    [];
+  }, []);
 
   if (providers) {
     return (

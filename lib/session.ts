@@ -46,6 +46,7 @@ export const authOptions: NextAuthOptions = {
 }
 
 export async function getCurrentUser(){
-  const session = await getServerSession(authOptions)
-  as SessionInterface;
+  const session = await getServerSession(authOptions) as SessionInterface;
+
+  return session;
 }
